@@ -64,7 +64,7 @@ df.describe()
 df = df.drop_duplicates().copy()
 
 numeric_cols = df.select_dtypes(include=np.number).columns
-categorical_cols = df.select_dtypes(include="object").columns
+categorical_cols = df.select_dtypes(include=["object", "string"]).columns
 
 for col in numeric_cols:
     if df[col].isnull().sum() > 0:
