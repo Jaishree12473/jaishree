@@ -98,8 +98,8 @@ JAISSHREEPROJECT/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/<YOUR_REPOSITORY_NAME>.git
-cd <YOUR_REPOSITORY_NAME>
+git clone https://github.com/Jaishree12473/seasonal_agriculture_performance.git
+cd seasonal_agriculture_performance
 ```
 
 ### 2. Set Up Virtual Environment & Dependencies
